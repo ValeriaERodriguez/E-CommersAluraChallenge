@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    max-width: 1440px;
 }
 
 
@@ -50,11 +51,10 @@ button{
 .hero-principal{
     display: flex;
     background-image:url(/Imagenes/Hero.png);
-    width: auto;
     height: 352px;
     flex-direction: column;
     align-self: stretch;
-    order: 1; 
+    
 }
 
 .hero-principal, header{
@@ -78,20 +78,29 @@ header, h1, h3{
     width: fit-content;
 }
 
-.productos-primarios, ul{
+.productos-priarios,
+
+ul{
     display: flex;
-    padding: 0;
+    flex-wrap: wrap;
     gap: 16px;
-    width: 1136px;
-    height: 306px;
+    
+    
 }
 .titulo-productos-primarios {
-    flex-direction: column;
-    padding-bottom: 16px;
-    text-align: center;
-}
-ul{
 
+    width: 278px;
+    height: 38px;
+    color: #464646;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    right: 729px;
+    margin: 10px 134px;
+    
+}
+.ver-mas{
+    flex-direction: flex-end;
 }
 
 li{
@@ -101,19 +110,29 @@ li{
 li, p{
     padding-bottom: 10px;
 }
+.producto-descripcion {
+    font-size: 18px;
+}
 
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+} 
 
 
 
 
 .roadpie{
     background: #eaf2fd;
-    width: 1440px;
+    width: auto;
     height: 470px;
 }
 footer{
     display: flex;
     margin: 64px 152px;
+    padding: 64px;
+    
 }
 .logo-footer{
     width: 179px;
@@ -123,15 +142,26 @@ footer{
     vertical-align: center;
     
 }
-.menu-general{
+#menu-general{
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
     height: 234px;
     width: 179px;
-    padding: 40px;
+    padding:  1px 40px;
+    font-size: 16px;
 }
-
+.mensaje{
+    gap: 8px;
+    width: 560px;
+    height: 240px;
+}
+textarea{
+    resize: none;
+    border: none;
+    border-radius: 20px;
+}
 .rodapie-final{
     height: 102px;
     text-align: center;
@@ -140,8 +170,43 @@ footer{
 .texto-rodapie{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
     text-align: center;
     color: #464646;
     
 }
+
+
+
+/* 
+        EJEMPLO DE LISTA DE PRODUCTOS DEL CURSO ALURA HTML PARTE3
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+} */

@@ -110,8 +110,9 @@ li{
 li, p{
     padding-bottom: 10px;
 }
-.producto-descripcion {
-    font-size: 18px;
+.producto-descripcion span{
+    color: #2A7AE4;
+    font-size: 12px;
 }
 
 .producto-precio {

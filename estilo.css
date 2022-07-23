@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     max-width: 1440px;
@@ -208,7 +208,7 @@ textarea{
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
-} */
+} 
 
 #product1 {
     text-align: center;
@@ -251,4 +251,6 @@ textarea{
     padding-top: 7px;
     font-size: 15px;
     font-weight: 700;
-}
+} 
+*/
+

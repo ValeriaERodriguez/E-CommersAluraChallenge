@@ -50,7 +50,7 @@ button{
 
 .hero-principal{
     display: flex;
-    background-image:url(main/Imagenes/Hero.png);
+    background-image:url(Imagenes/Hero.png);
     height: 352px;
     flex-direction: column;
     align-self: stretch;
